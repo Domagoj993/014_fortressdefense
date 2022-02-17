@@ -15,11 +15,11 @@ C:/Users/User/Documents/GitHub/014_fortressdefense/014_fortressdefense
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-49611
+58610
 Successfully changed project path to: C:/Users/User/Documents/GitHub/014_fortressdefense/014_fortressdefense
 C:/Users/User/Documents/GitHub/014_fortressdefense/014_fortressdefense
 Using Asset Import Pipeline V2.
-Refreshing native plugins compatible for Editor in 30.76 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 33.29 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2020.3.19f1 (68f137dc9bbe)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2020.3.19f1/Editor/Data/Resources/UnitySubsystems
@@ -35,89 +35,89 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2020.3.19f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2020.3.19f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2020.3.19f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56744
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56008
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.19f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.001326 seconds.
+Registered in 0.001434 seconds.
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 31.20 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 34.26 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.273 seconds
+- Completed reload, in  1.631 seconds
 Domain Reload Profiling:
-	ReloadAssembly (1273ms)
-		BeginReloadAssembly (39ms)
+	ReloadAssembly (1631ms)
+		BeginReloadAssembly (42ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (0ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
 			CreateAndSetChildDomain (1ms)
-		EndReloadAssembly (321ms)
-			LoadAssemblies (38ms)
+		EndReloadAssembly (345ms)
+			LoadAssemblies (41ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (113ms)
+			SetupTypeCache (123ms)
 			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (23ms)
-			SetupLoadedEditorAssemblies (131ms)
+			RebuildScriptCaches (25ms)
+			SetupLoadedEditorAssemblies (139ms)
 				LogAssemblyErrors (0ms)
 				InitializePlatformSupportModulesInManaged (3ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (31ms)
+				RefreshPlugins (34ms)
 				BeforeProcessingInitializeOnLoad (13ms)
-				ProcessInitializeOnLoadAttributes (62ms)
-				ProcessInitializeOnLoadMethodAttributes (22ms)
+				ProcessInitializeOnLoadAttributes (66ms)
+				ProcessInitializeOnLoadMethodAttributes (23ms)
 				AfterProcessingInitializeOnLoad (0ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (0ms)
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.002034 seconds.
+Registered in 0.002489 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.37 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 0.38 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.788 seconds
+- Completed reload, in  0.826 seconds
 Domain Reload Profiling:
-	ReloadAssembly (788ms)
-		BeginReloadAssembly (109ms)
+	ReloadAssembly (827ms)
+		BeginReloadAssembly (114ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (4ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (13ms)
-		EndReloadAssembly (632ms)
-			LoadAssemblies (65ms)
+			CreateAndSetChildDomain (14ms)
+		EndReloadAssembly (664ms)
+			LoadAssemblies (69ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (211ms)
+			SetupTypeCache (225ms)
 			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (39ms)
-			SetupLoadedEditorAssemblies (245ms)
+			RebuildScriptCaches (40ms)
+			SetupLoadedEditorAssemblies (254ms)
 				LogAssemblyErrors (0ms)
 				InitializePlatformSupportModulesInManaged (4ms)
 				SetLoadedEditorAssemblies (0ms)
 				RefreshPlugins (0ms)
-				BeforeProcessingInitializeOnLoad (65ms)
-				ProcessInitializeOnLoadAttributes (168ms)
+				BeforeProcessingInitializeOnLoad (68ms)
+				ProcessInitializeOnLoadAttributes (174ms)
 				ProcessInitializeOnLoadMethodAttributes (3ms)
-				AfterProcessingInitializeOnLoad (4ms)
+				AfterProcessingInitializeOnLoad (5ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (5ms)
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.05 seconds
-Refreshing native plugins compatible for Editor in 0.36 ms, found 2 plugins.
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.06 seconds
+Refreshing native plugins compatible for Editor in 0.39 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 2069 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 105.7 MB.
-System memory in use after: 105.8 MB.
+System memory in use before: 105.9 MB.
+System memory in use after: 106.0 MB.
 
 Unloading 16 unused Assets to reduce memory usage. Loaded Objects now: 2521.
-Total: 2.249000 ms (FindLiveObjects: 0.163900 ms CreateObjectMapping: 0.075400 ms MarkObjects: 1.912400 ms  DeleteObjects: 0.096700 ms)
+Total: 2.487500 ms (FindLiveObjects: 0.178200 ms CreateObjectMapping: 0.074400 ms MarkObjects: 2.110800 ms  DeleteObjects: 0.123300 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
@@ -132,283 +132,816 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  path: Assets/Development/Prototyping_LevelDesign/Scenes/ChapterOne_Test.unity
-  artifactKey: Guid(9939ac7e6a7fc1e4b82c3f1a014f886a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Development/Prototyping_LevelDesign/Scenes/ChapterOne_Test.unity using Guid(9939ac7e6a7fc1e4b82c3f1a014f886a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c7ad651f37c930fccdbeddeddb18fa0f') in 0.013291 seconds 
-  Import took 0.015714 seconds .
+  path: Assets/Development/Prototyping_LevelDesign/Prefabs/Castle.prefab
+  artifactKey: Guid(0f8024c3e6af50648af442ae5e071e5f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Development/Prototyping_LevelDesign/Prefabs/Castle.prefab using Guid(0f8024c3e6af50648af442ae5e071e5f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3f55e5f41981cc56414e2ec3deebf70b') in 0.059096 seconds 
+  Import took 0.062754 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 18.509182 seconds.
+  Time since last request: 607.396660 seconds.
   path: Assets/Development/Prototyping_LevelDesign/Scenes/ChapterTwo_Test.unity
   artifactKey: Guid(149f4bd3432ce154bb510f75f656c335) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Development/Prototyping_LevelDesign/Scenes/ChapterTwo_Test.unity using Guid(149f4bd3432ce154bb510f75f656c335) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '67b0d167d306fea3eae2fd9dea270c41') in 0.004779 seconds 
-  Import took 0.007449 seconds .
+Start importing Assets/Development/Prototyping_LevelDesign/Scenes/ChapterTwo_Test.unity using Guid(149f4bd3432ce154bb510f75f656c335) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f9e8a9fde126000f9b97af14bb7f53fe') in 0.006531 seconds 
+  Import took 0.011692 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 244.872877 seconds.
+  path: Assets/Development/Prefabs/SM_Bld_Castle_Tower_02.fbx
+  artifactKey: Guid(4cc29c8c44ece7849b447d8400ed5066) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Development/Prefabs/SM_Bld_Castle_Tower_02.fbx using Guid(4cc29c8c44ece7849b447d8400ed5066) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd2b0cc93c72668bde5df67e70d2059d4') in 0.087777 seconds 
+  Import took 0.091244 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 191.184081 seconds.
+  path: Assets/Development/Models
+  artifactKey: Guid(485bfd2c03a24b1438682db64d071fc3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Development/Models using Guid(485bfd2c03a24b1438682db64d071fc3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '53d4686398e2b2481c79c7be8e2bdfdc') in 0.005060 seconds 
+  Import took 0.007860 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.125118 seconds.
+  path: Assets/Development/Models/Arrow_Explosive.fbx
+  artifactKey: Guid(f90c83b03f3cf1048b3d4280e852de72) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Development/Models/Arrow_Explosive.fbx using Guid(f90c83b03f3cf1048b3d4280e852de72) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '40c973ab0473ea11e71ff41538252141') in 0.017359 seconds 
+  Import took 0.020044 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000147 seconds.
+  path: Assets/Development/Models/Bow.fbx
+  artifactKey: Guid(429e674465b9df9429acb04c546c5413) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Development/Models/Bow.fbx using Guid(429e674465b9df9429acb04c546c5413) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1ea03bdbced67d75b3df41f7740fbd76') in 0.026808 seconds 
+  Import took 0.029334 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000173 seconds.
+  path: Assets/Development/Models/FX_CubePivot.fbx
+  artifactKey: Guid(4b56fdef7aba13542b9b1a185ee3e18b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Development/Models/FX_CubePivot.fbx using Guid(4b56fdef7aba13542b9b1a185ee3e18b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6479dc3abf53437bedbebbf3f2f09f67') in 0.020642 seconds 
+  Import took 0.023262 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000117 seconds.
+  path: Assets/Development/Models/Dagger.fbx
+  artifactKey: Guid(09b8a4c0f8956244b849b62306014408) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Development/Models/Dagger.fbx using Guid(09b8a4c0f8956244b849b62306014408) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1571b76514c2e7afed1c4e9c7faed433') in 0.014039 seconds 
+  Import took 0.016454 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000114 seconds.
+  path: Assets/Development/Models/Crossbow.fbx
+  artifactKey: Guid(b7503b5eddbd10545b403e412b4e03bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Development/Models/Crossbow.fbx using Guid(b7503b5eddbd10545b403e412b4e03bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '07a44928de02b8c0c906e0893481197d') in 0.020292 seconds 
+  Import took 0.022787 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000118 seconds.
+  path: Assets/Development/Models/PolyBone.FBX
+  artifactKey: Guid(6b201aee085f54a48b22efb70e21628f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Development/Models/PolyBone.FBX using Guid(6b201aee085f54a48b22efb70e21628f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8375e5e89ac31f7f8f67c5d74912b04c') in 0.015759 seconds 
+  Import took 0.018265 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000116 seconds.
+  path: Assets/Development/Models/PolyBoneBroken.FBX
+  artifactKey: Guid(9fb1fc661ba4d8042b110bfc90857912) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Development/Models/PolyBoneBroken.FBX using Guid(9fb1fc661ba4d8042b110bfc90857912) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '792d92c986e414e98388c2e3e115a6a7') in 0.014546 seconds 
+  Import took 0.017098 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000112 seconds.
+  path: Assets/Development/Models/Mystic_Arms.fbx
+  artifactKey: Guid(a78f5dc92ff2b2f4e9f984b0ff9dfe98) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Development/Models/Mystic_Arms.fbx using Guid(a78f5dc92ff2b2f4e9f984b0ff9dfe98) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '74abe30d7293bae1dc5694571eaeff1f') in 0.041159 seconds 
+  Import took 0.043745 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000172 seconds.
+  path: Assets/Development/Models/Bow_New.fbx
+  artifactKey: Guid(b8c239011b6a823469bd2571b2fe45fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Development/Models/Bow_New.fbx using Guid(b8c239011b6a823469bd2571b2fe45fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f7d3813600de02d2114161d1d7884e25') in 0.017047 seconds 
+  Import took 0.019544 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000110 seconds.
+  path: Assets/Development/Models/FX_Ring_Mesh.fbx
+  artifactKey: Guid(c97f0954a0ac5fd4d8f888fe624dad7a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Development/Models/FX_Ring_Mesh.fbx using Guid(c97f0954a0ac5fd4d8f888fe624dad7a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '556c522003cde0c267ecb1230d69e0b5') in 0.014627 seconds 
+  Import took 0.017126 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000113 seconds.
+  path: Assets/Development/Models/Arrow_Regular.fbx
+  artifactKey: Guid(4cd0479ce7a290745aae9ccca5528416) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Development/Models/Arrow_Regular.fbx using Guid(4cd0479ce7a290745aae9ccca5528416) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4a2da2ded4b1e1ca4fe70180ba4c97a5') in 0.014015 seconds 
+  Import took 0.016486 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000119 seconds.
+  path: Assets/Development/Models/Grenade_Smoke.fbx
+  artifactKey: Guid(b63272a2d161039438c571dc867b7f27) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Development/Models/Grenade_Smoke.fbx using Guid(b63272a2d161039438c571dc867b7f27) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8da6406cd40455cdcd8f2b46bd7f0f3a') in 0.014530 seconds 
+  Import took 0.016976 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000118 seconds.
+  path: Assets/Development/Models/Bomb.fbx
+  artifactKey: Guid(49aa045ebc1b8de47b5f3bd351968395) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Development/Models/Bomb.fbx using Guid(49aa045ebc1b8de47b5f3bd351968395) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '89a255eea8afb80b9a83a0292de01034') in 0.014531 seconds 
+  Import took 0.017088 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000111 seconds.
+  path: Assets/Development/Models/FX_Electricity_Mesh.fbx
+  artifactKey: Guid(fc51cc2a3b22cd243be223aa805cbd01) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Development/Models/FX_Electricity_Mesh.fbx using Guid(fc51cc2a3b22cd243be223aa805cbd01) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '92129c741c2d0ee8cc1494c365d2cdca') in 0.013421 seconds 
+  Import took 0.016107 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000149 seconds.
+  path: Assets/Development/Models/Medusa_Snakes.fbx
+  artifactKey: Guid(229ecd976f134d14bb735d124180f3c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Development/Models/Medusa_Snakes.fbx using Guid(229ecd976f134d14bb735d124180f3c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ea38871c2066ee3685c25858762246b2') in 0.022616 seconds 
+  Import took 0.025360 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000134 seconds.
+  path: Assets/Development/Models/FX_Runes.fbx
+  artifactKey: Guid(bb4ce845f39fd9845b5e6048f07d93c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Development/Models/FX_Runes.fbx using Guid(bb4ce845f39fd9845b5e6048f07d93c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c5dffaaf775ae8761bc9ba08751bc934') in 0.021600 seconds 
+  Import took 0.024113 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000119 seconds.
+  path: Assets/Development/Models/Grenade_Sulfur.fbx
+  artifactKey: Guid(44a0d0f19ba73f44d975566a2025d43a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Development/Models/Grenade_Sulfur.fbx using Guid(44a0d0f19ba73f44d975566a2025d43a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0c842130c5a2e9f5029a2b581beef7ff') in 0.014124 seconds 
+  Import took 0.016937 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000121 seconds.
+  path: Assets/Development/Models/FX_CubePivot_Mesh.fbx
+  artifactKey: Guid(ede1ef90b481e284c948880e6de8d79b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Development/Models/FX_CubePivot_Mesh.fbx using Guid(ede1ef90b481e284c948880e6de8d79b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bfed8efe52a5c792e7c4927bb6b041a8') in 0.013589 seconds 
+  Import took 0.016169 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000132 seconds.
+  path: Assets/Development/Models/Arrow_Piercing.fbx
+  artifactKey: Guid(64f52154b29e3bb45b5362233291f3fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Development/Models/Arrow_Piercing.fbx using Guid(64f52154b29e3bb45b5362233291f3fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6d99eaf143de353bd22666790bdb9352') in 0.013754 seconds 
+  Import took 0.016436 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 264.762847 seconds.
+  path: Assets/Z_Third Party/Fantastic Dungeon Pack
+  artifactKey: Guid(6ae2da7dd70feb349b7a5575c6adbc25) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Z_Third Party/Fantastic Dungeon Pack using Guid(6ae2da7dd70feb349b7a5575c6adbc25) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '23a3d1133ffcfc0facf5f8ec1a37274c') in 0.007718 seconds 
+  Import took 0.010733 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.596318 seconds.
+  path: Assets/Z_Third Party/Fantastic Dungeon Pack/2d
+  artifactKey: Guid(fd24d8d3bbc28dc4f8a32657a289180d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Z_Third Party/Fantastic Dungeon Pack/2d using Guid(fd24d8d3bbc28dc4f8a32657a289180d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9f18935ceea9c5f480d92ba8c95729ad') in 0.004519 seconds 
+  Import took 0.007246 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.800925 seconds.
+  path: Assets/Z_Third Party/Fantastic Dungeon Pack/2d/Textures
+  artifactKey: Guid(4e685f4e1b513bf40a679fc6f77524f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Z_Third Party/Fantastic Dungeon Pack/2d/Textures using Guid(4e685f4e1b513bf40a679fc6f77524f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '97f148be13c001371612f13e17c4fa6a') in 0.004266 seconds 
+  Import took 0.007075 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.077702 seconds.
+  path: Assets/Z_Third Party/Fantastic Dungeon Pack/2d/Textures/T_ENV_MOD_Floor_01_v1_BC.png
+  artifactKey: Guid(461e4f4280bdcdc498e0d3dd15e223e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Z_Third Party/Fantastic Dungeon Pack/2d/Textures/T_ENV_MOD_Floor_01_v1_BC.png using Guid(461e4f4280bdcdc498e0d3dd15e223e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '24054e40411ae8d4fbaf218f535116c9') in 0.026809 seconds 
+  Import took 0.029521 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000121 seconds.
+  path: Assets/Z_Third Party/Fantastic Dungeon Pack/2d/Textures/T_ENV_MOD_StoneStack_01_v2_BC.png
+  artifactKey: Guid(9c5b634733e4cf048aa6ae61103c4232) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Z_Third Party/Fantastic Dungeon Pack/2d/Textures/T_ENV_MOD_StoneStack_01_v2_BC.png using Guid(9c5b634733e4cf048aa6ae61103c4232) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bff05fbd72a5751798570fde61b29461') in 0.010470 seconds 
+  Import took 0.013345 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000117 seconds.
+  path: Assets/Z_Third Party/Fantastic Dungeon Pack/2d/Textures/T_ENV_MOD_StoneStack_01_v3_MTSM.png
+  artifactKey: Guid(9144a7a057d145a408cf3d17d3f8a983) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Z_Third Party/Fantastic Dungeon Pack/2d/Textures/T_ENV_MOD_StoneStack_01_v3_MTSM.png using Guid(9144a7a057d145a408cf3d17d3f8a983) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '09c20e581dfc0a686caa7543095da6fb') in 0.023680 seconds 
+  Import took 0.026317 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000114 seconds.
+  path: Assets/Z_Third Party/Fantastic Dungeon Pack/2d/Textures/T_ENV_MOD_Floor_01_v2_N.png
+  artifactKey: Guid(0e4fabfd87b5ec64a8ff28aef97dcc71) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Z_Third Party/Fantastic Dungeon Pack/2d/Textures/T_ENV_MOD_Floor_01_v2_N.png using Guid(0e4fabfd87b5ec64a8ff28aef97dcc71) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6591ba2d7388eaf6dc3243b3c136498e') in 0.013895 seconds 
+  Import took 0.016477 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000114 seconds.
+  path: Assets/Z_Third Party/Fantastic Dungeon Pack/2d/Textures/T_ENV_MOD_StoneStack_01_v3_BC.png
+  artifactKey: Guid(5a62cd69b18f54148836daabd9a48f11) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Z_Third Party/Fantastic Dungeon Pack/2d/Textures/T_ENV_MOD_StoneStack_01_v3_BC.png using Guid(5a62cd69b18f54148836daabd9a48f11) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4a013dff2b652c6f9e5f8d5224d9b317') in 0.010940 seconds 
+  Import took 0.013424 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000120 seconds.
+  path: Assets/Z_Third Party/Fantastic Dungeon Pack/2d/Textures/T_ENV_MOD_Floor_01_v1_N.png
+  artifactKey: Guid(f87f8406ec4af3045a37b0c87a75c49c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Z_Third Party/Fantastic Dungeon Pack/2d/Textures/T_ENV_MOD_Floor_01_v1_N.png using Guid(f87f8406ec4af3045a37b0c87a75c49c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2c7cd8ff5b0d4866fce63c0aa6ff87ed') in 0.011218 seconds 
+  Import took 0.013818 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000121 seconds.
+  path: Assets/Z_Third Party/Fantastic Dungeon Pack/2d/Textures/T_ENV_MOD_Floor_01_v2_BC.png
+  artifactKey: Guid(b4ce14d74497907449d14837112a165e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Z_Third Party/Fantastic Dungeon Pack/2d/Textures/T_ENV_MOD_Floor_01_v2_BC.png using Guid(b4ce14d74497907449d14837112a165e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c9f94ed1861d961efd9fec545da9d374') in 0.011022 seconds 
+  Import took 0.013646 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000123 seconds.
+  path: Assets/Z_Third Party/Fantastic Dungeon Pack/2d/Textures/T_ENV_MOD_StoneStack_01_v1_BC.png
+  artifactKey: Guid(3d442ba2415d8c84a8cedb60e55de6fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Z_Third Party/Fantastic Dungeon Pack/2d/Textures/T_ENV_MOD_StoneStack_01_v1_BC.png using Guid(3d442ba2415d8c84a8cedb60e55de6fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ced8531f3b0adb31aa6615d21a4b0ff5') in 0.010273 seconds 
+  Import took 0.012879 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000124 seconds.
+  path: Assets/Z_Third Party/Fantastic Dungeon Pack/2d/Textures/T_ENV_MOD_StoneStack_01_v2_MTSM.png
+  artifactKey: Guid(94a75c673fd11144fb78f15aa088702e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Z_Third Party/Fantastic Dungeon Pack/2d/Textures/T_ENV_MOD_StoneStack_01_v2_MTSM.png using Guid(94a75c673fd11144fb78f15aa088702e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '403c01a9d28eb6cd37962e9172d11df3') in 0.012477 seconds 
+  Import took 0.015064 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000116 seconds.
+  path: Assets/Z_Third Party/Fantastic Dungeon Pack/2d/Textures/T_ENV_MOD_Floor_01_v3_MTSM.png
+  artifactKey: Guid(7ba2c79f25ec866448345c289bfbc501) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Z_Third Party/Fantastic Dungeon Pack/2d/Textures/T_ENV_MOD_Floor_01_v3_MTSM.png using Guid(7ba2c79f25ec866448345c289bfbc501) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9462cdb7cd519c058bfeae20c56d7b7c') in 0.015386 seconds 
+  Import took 0.017947 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000127 seconds.
+  path: Assets/Z_Third Party/Fantastic Dungeon Pack/2d/Textures/T_ENV_MOD_Floor_01_v2_MTSM.png
+  artifactKey: Guid(e78253f42743f684dbcb24aa58a64f75) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Z_Third Party/Fantastic Dungeon Pack/2d/Textures/T_ENV_MOD_Floor_01_v2_MTSM.png using Guid(e78253f42743f684dbcb24aa58a64f75) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7391a964184f7314b34fe9d05b15560b') in 0.010498 seconds 
+  Import took 0.013241 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000175 seconds.
+  path: Assets/Z_Third Party/Fantastic Dungeon Pack/2d/Textures/T_ENV_MOD_StoneStack_01_v1_MTSM.png
+  artifactKey: Guid(2c0d2e9e477f7f842b916e17f640bdfd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Z_Third Party/Fantastic Dungeon Pack/2d/Textures/T_ENV_MOD_StoneStack_01_v1_MTSM.png using Guid(2c0d2e9e477f7f842b916e17f640bdfd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8a534eead2602a45d9bda9090d843a22') in 0.012425 seconds 
+  Import took 0.015378 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000135 seconds.
+  path: Assets/Z_Third Party/Fantastic Dungeon Pack/2d/Textures/T_ENV_MOD_Floor_01_v3_BC.png
+  artifactKey: Guid(d0041821489b454499797bd4a7cb695c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Z_Third Party/Fantastic Dungeon Pack/2d/Textures/T_ENV_MOD_Floor_01_v3_BC.png using Guid(d0041821489b454499797bd4a7cb695c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3aa5a0d788287bc121650fe842f7b5a2') in 0.012177 seconds 
+  Import took 0.015092 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000133 seconds.
+  path: Assets/Z_Third Party/Fantastic Dungeon Pack/2d/Textures/T_ENV_MOD_StoneStack_01_v1_N.png
+  artifactKey: Guid(9ee560f8d25305b4b9aa2cfd82a47b6a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Z_Third Party/Fantastic Dungeon Pack/2d/Textures/T_ENV_MOD_StoneStack_01_v1_N.png using Guid(9ee560f8d25305b4b9aa2cfd82a47b6a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '34d600c56f4802dab3f6e65d7d71cd19') in 0.011321 seconds 
+  Import took 0.014045 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000116 seconds.
+  path: Assets/Z_Third Party/Fantastic Dungeon Pack/2d/Textures/T_ENV_MOD_Floor_01_v1_MTSM.png
+  artifactKey: Guid(8af8380b8f2925c499327994f5551956) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Z_Third Party/Fantastic Dungeon Pack/2d/Textures/T_ENV_MOD_Floor_01_v1_MTSM.png using Guid(8af8380b8f2925c499327994f5551956) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c598bd56399e0afb6dee44688f0a5c50') in 0.011703 seconds 
+  Import took 0.014375 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000137 seconds.
+  path: Assets/Z_Third Party/Fantastic Dungeon Pack/2d/Textures/T_ENV_MOD_StoneStack_01_v3_N.png
+  artifactKey: Guid(340ab91dc7a2afc43bd327dda7797f24) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Z_Third Party/Fantastic Dungeon Pack/2d/Textures/T_ENV_MOD_StoneStack_01_v3_N.png using Guid(340ab91dc7a2afc43bd327dda7797f24) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6636a94990df223969ef04149fd39742') in 0.011662 seconds 
+  Import took 0.014591 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000107 seconds.
+  path: Assets/Z_Third Party/Fantastic Dungeon Pack/2d/Textures/T_ENV_MOD_StoneStack_01_v2_N.png
+  artifactKey: Guid(9cbd4cfbad262264b9562d14497f7da6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Z_Third Party/Fantastic Dungeon Pack/2d/Textures/T_ENV_MOD_StoneStack_01_v2_N.png using Guid(9cbd4cfbad262264b9562d14497f7da6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '831d805e379aaebfc4638757497bf0ac') in 0.010835 seconds 
+  Import took 0.013400 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000117 seconds.
+  path: Assets/Z_Third Party/Fantastic Dungeon Pack/2d/Textures/T_ENV_MOD_Floor_01_v3_N.png
+  artifactKey: Guid(cd938e7c673b748489c7e968fdcbf024) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Z_Third Party/Fantastic Dungeon Pack/2d/Textures/T_ENV_MOD_Floor_01_v3_N.png using Guid(cd938e7c673b748489c7e968fdcbf024) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '126ac9489611760aaf4c194661019f7b') in 0.015622 seconds 
+  Import took 0.018246 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.912706 seconds.
+  path: Assets/Z_Third Party/Fantastic Dungeon Pack/2d/Textures/T_ENV_MOD_Wall_01_v1_BC.png
+  artifactKey: Guid(de3cd2ff54971ab4fbde321d95efe882) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Z_Third Party/Fantastic Dungeon Pack/2d/Textures/T_ENV_MOD_Wall_01_v1_BC.png using Guid(de3cd2ff54971ab4fbde321d95efe882) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0692e0f750bda0687e54e131a95b5633') in 0.011839 seconds 
+  Import took 0.014538 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000116 seconds.
+  path: Assets/Z_Third Party/Fantastic Dungeon Pack/2d/Textures/T_ENV_MOD_Wall_01_v1_N.png
+  artifactKey: Guid(18438456439afde43b50d1b90eb94109) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Z_Third Party/Fantastic Dungeon Pack/2d/Textures/T_ENV_MOD_Wall_01_v1_N.png using Guid(18438456439afde43b50d1b90eb94109) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4a5362729db60c85e3491c6f88c17fdc') in 0.012552 seconds 
+  Import took 0.015451 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000128 seconds.
+  path: Assets/Z_Third Party/Fantastic Dungeon Pack/2d/Textures/T_ENV_MOD_Wall_01_v2_N.png
+  artifactKey: Guid(eb1c3511dbc365f46b360bd36c78fa37) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Z_Third Party/Fantastic Dungeon Pack/2d/Textures/T_ENV_MOD_Wall_01_v2_N.png using Guid(eb1c3511dbc365f46b360bd36c78fa37) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5d0a41e5f5c7bd7c54880ba2798a1b33') in 0.015751 seconds 
+  Import took 0.018485 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000137 seconds.
+  path: Assets/Z_Third Party/Fantastic Dungeon Pack/2d/Textures/T_ENV_MOD_Wall_01_v3_MTSM.png
+  artifactKey: Guid(8baa4a837440766468cac170cffb609d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Z_Third Party/Fantastic Dungeon Pack/2d/Textures/T_ENV_MOD_Wall_01_v3_MTSM.png using Guid(8baa4a837440766468cac170cffb609d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '92fa7dbb90fcae76e467fe1c614fadf8') in 0.009524 seconds 
+  Import took 0.012361 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000225 seconds.
+  path: Assets/Z_Third Party/Fantastic Dungeon Pack/2d/Textures/T_ENV_MOD_Wall_01_v1_MTSM.png
+  artifactKey: Guid(d7cb6264e221e21419b3fe796d9ce438) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Z_Third Party/Fantastic Dungeon Pack/2d/Textures/T_ENV_MOD_Wall_01_v1_MTSM.png using Guid(d7cb6264e221e21419b3fe796d9ce438) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b2c74f7c1213b70c21e8ee3a93590fb4') in 0.010530 seconds 
+  Import took 0.013761 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000156 seconds.
+  path: Assets/Z_Third Party/Fantastic Dungeon Pack/2d/Textures/T_ENV_MOD_Wall_01_v2_BC.png
+  artifactKey: Guid(b327818e895bdff4e9300d879713004a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Z_Third Party/Fantastic Dungeon Pack/2d/Textures/T_ENV_MOD_Wall_01_v2_BC.png using Guid(b327818e895bdff4e9300d879713004a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6477a47606f83ded823cc93db9a9af08') in 0.009041 seconds 
+  Import took 0.011873 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000115 seconds.
+  path: Assets/Z_Third Party/Fantastic Dungeon Pack/2d/Textures/T_ENV_MOD_Wall_01_v3_N.png
+  artifactKey: Guid(e75cf1347cca98942ab8a9a41a0dbee2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Z_Third Party/Fantastic Dungeon Pack/2d/Textures/T_ENV_MOD_Wall_01_v3_N.png using Guid(e75cf1347cca98942ab8a9a41a0dbee2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c66c650dda6f8640b04e0b395fdfe063') in 0.011238 seconds 
+  Import took 0.014248 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000131 seconds.
+  path: Assets/Z_Third Party/Fantastic Dungeon Pack/2d/Textures/T_ENV_MOD_Wall_01_v2_MTSM.png
+  artifactKey: Guid(983c6ec25a7b758478040857797d5ece) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Z_Third Party/Fantastic Dungeon Pack/2d/Textures/T_ENV_MOD_Wall_01_v2_MTSM.png using Guid(983c6ec25a7b758478040857797d5ece) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '66febf5731e8a72840978b316641dc7b') in 0.010282 seconds 
+  Import took 0.013088 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000188 seconds.
+  path: Assets/Z_Third Party/Fantastic Dungeon Pack/2d/Textures/T_ENV_MOD_Wall_01_v3_BC.png
+  artifactKey: Guid(bea4ad1d1e6928b42b3228ef50c0a038) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Z_Third Party/Fantastic Dungeon Pack/2d/Textures/T_ENV_MOD_Wall_01_v3_BC.png using Guid(bea4ad1d1e6928b42b3228ef50c0a038) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '69b0e0e114e136f847ba95b0ca4c3d9e') in 0.009847 seconds 
+  Import took 0.012780 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.180119 seconds.
+  path: Assets/Z_Third Party/Fantastic Dungeon Pack/2d/Textures/T_FX_glow_dungeon.png
+  artifactKey: Guid(ebdbc89e0a14aa54fa69908bcac1d493) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Z_Third Party/Fantastic Dungeon Pack/2d/Textures/T_FX_glow_dungeon.png using Guid(ebdbc89e0a14aa54fa69908bcac1d493) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e64bb7542fb31b6dc02c185e7f449ca1') in 0.007623 seconds 
+  Import took 0.010600 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000127 seconds.
+  path: Assets/Z_Third Party/Fantastic Dungeon Pack/2d/Textures/T_metal_dungeon_01_BC.png
+  artifactKey: Guid(d0054582040b5c045afe9523aacdac92) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Z_Third Party/Fantastic Dungeon Pack/2d/Textures/T_metal_dungeon_01_BC.png using Guid(d0054582040b5c045afe9523aacdac92) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '999254aa939075d5541b42fe5cbfbc25') in 0.008398 seconds 
+  Import took 0.011355 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000149 seconds.
+  path: Assets/Z_Third Party/Fantastic Dungeon Pack/2d/Textures/T_metal_dungeon_02_BC.png
+  artifactKey: Guid(ef895f3340fcbd1478db68c37d3815ca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Z_Third Party/Fantastic Dungeon Pack/2d/Textures/T_metal_dungeon_02_BC.png using Guid(ef895f3340fcbd1478db68c37d3815ca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4dd44cce7fcabf02a70aac7f823342c5') in 0.010851 seconds 
+  Import took 0.013542 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000122 seconds.
+  path: Assets/Z_Third Party/Fantastic Dungeon Pack/2d/Textures/T_FX_sprite_fire_dungeon_BC.png
+  artifactKey: Guid(bb3388f953d83aa4d99e809ff9ff0898) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Z_Third Party/Fantastic Dungeon Pack/2d/Textures/T_FX_sprite_fire_dungeon_BC.png using Guid(bb3388f953d83aa4d99e809ff9ff0898) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4a8fce6ea03dd688b52891f91f0094c1') in 0.007623 seconds 
+  Import took 0.010220 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000162 seconds.
+  path: Assets/Z_Third Party/Fantastic Dungeon Pack/2d/Textures/T_PROP_bonepile_dungeon_BC.png
+  artifactKey: Guid(a8ee02254c568954aade2df729f701f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Z_Third Party/Fantastic Dungeon Pack/2d/Textures/T_PROP_bonepile_dungeon_BC.png using Guid(a8ee02254c568954aade2df729f701f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6d0936c441efd762d9dccbfc6384c4c8') in 0.009503 seconds 
+  Import took 0.012314 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000114 seconds.
+  path: Assets/Z_Third Party/Fantastic Dungeon Pack/2d/Textures/T_PROP_bow_dungeon_BC.png
+  artifactKey: Guid(261d9405c9db06f42baf10eab12f8fff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Z_Third Party/Fantastic Dungeon Pack/2d/Textures/T_PROP_bow_dungeon_BC.png using Guid(261d9405c9db06f42baf10eab12f8fff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c477c5201a8bba6055cf8da60b8d1dee') in 0.008838 seconds 
+  Import took 0.011657 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000126 seconds.
+  path: Assets/Z_Third Party/Fantastic Dungeon Pack/2d/Textures/T_PROP_candle _dungeon_BC.png
+  artifactKey: Guid(a530624946aa2f1429257436ca2d535c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Z_Third Party/Fantastic Dungeon Pack/2d/Textures/T_PROP_candle _dungeon_BC.png using Guid(a530624946aa2f1429257436ca2d535c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5a5bc6b952c1f7243dd2a824971132e9') in 0.008342 seconds 
+  Import took 0.010944 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000124 seconds.
+  path: Assets/Z_Third Party/Fantastic Dungeon Pack/2d/Textures/T_metal_dungeon_MTSM_nometal.png
+  artifactKey: Guid(d079401ad29207b47885746e44d86594) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Z_Third Party/Fantastic Dungeon Pack/2d/Textures/T_metal_dungeon_MTSM_nometal.png using Guid(d079401ad29207b47885746e44d86594) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd7e04ddba23a44baa5a3424ce874d680') in 0.009796 seconds 
+  Import took 0.012406 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000123 seconds.
+  path: Assets/Z_Third Party/Fantastic Dungeon Pack/2d/Textures/T_metal_dungeon_MTSM.png
+  artifactKey: Guid(b2b8e691cc48d87408802746580e86b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Z_Third Party/Fantastic Dungeon Pack/2d/Textures/T_metal_dungeon_MTSM.png using Guid(b2b8e691cc48d87408802746580e86b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1e4f133e2234ec5983b6ab475c063069') in 0.009615 seconds 
+  Import took 0.012483 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000110 seconds.
+  path: Assets/Z_Third Party/Fantastic Dungeon Pack/2d/Textures/T_metal_dungeon_N.png
+  artifactKey: Guid(a5e23452bf52ec24dabf8e2f9c04200c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Z_Third Party/Fantastic Dungeon Pack/2d/Textures/T_metal_dungeon_N.png using Guid(a5e23452bf52ec24dabf8e2f9c04200c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c8742dd8f3154467f86b6f086abd9d11') in 0.009688 seconds 
+  Import took 0.012313 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000117 seconds.
+  path: Assets/Z_Third Party/Fantastic Dungeon Pack/2d/Textures/T_FX_sprite_steam_dungeon_BC.png
+  artifactKey: Guid(a4aba54d827cb444a8767b0bd392e211) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Z_Third Party/Fantastic Dungeon Pack/2d/Textures/T_FX_sprite_steam_dungeon_BC.png using Guid(a4aba54d827cb444a8767b0bd392e211) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b40d6786c911d177fff48d1aec374809') in 0.008077 seconds 
+  Import took 0.010628 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000123 seconds.
+  path: Assets/Z_Third Party/Fantastic Dungeon Pack/2d/Textures/T_PROP_campfire_dungeon_BC.png
+  artifactKey: Guid(507780890b09a404fb21d7f2098b9006) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Z_Third Party/Fantastic Dungeon Pack/2d/Textures/T_PROP_campfire_dungeon_BC.png using Guid(507780890b09a404fb21d7f2098b9006) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00d086613f4d87377cae263a8d917034') in 0.010687 seconds 
+  Import took 0.013273 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000120 seconds.
+  path: Assets/Z_Third Party/Fantastic Dungeon Pack/2d/Textures/T_PROP_campfire_dungeon_E.png
+  artifactKey: Guid(0579441be958e1c4c9d7cf50e270c0bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Z_Third Party/Fantastic Dungeon Pack/2d/Textures/T_PROP_campfire_dungeon_E.png using Guid(0579441be958e1c4c9d7cf50e270c0bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5093f02f29d9b726770e322f1e93b39e') in 0.009964 seconds 
+  Import took 0.012667 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000118 seconds.
+  path: Assets/Z_Third Party/Fantastic Dungeon Pack/2d/Textures/T_gradient_linear_dungeon.png
+  artifactKey: Guid(6c09387e65d7fa948b866baef3383bcf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Z_Third Party/Fantastic Dungeon Pack/2d/Textures/T_gradient_linear_dungeon.png using Guid(6c09387e65d7fa948b866baef3383bcf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bdc9ebca1394776533b3f87ea2c1e452') in 0.010140 seconds 
+  Import took 0.012793 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000116 seconds.
+  path: Assets/Z_Third Party/Fantastic Dungeon Pack/2d/Textures/T_PROP_bonepile_dungeon_MTSM.png
+  artifactKey: Guid(868dd95f8914db44fbffc931edc1e93d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Z_Third Party/Fantastic Dungeon Pack/2d/Textures/T_PROP_bonepile_dungeon_MTSM.png using Guid(868dd95f8914db44fbffc931edc1e93d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '10891853de5e37c747d143d84c6d7a01') in 0.010073 seconds 
+  Import took 0.012744 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000127 seconds.
+  path: Assets/Z_Third Party/Fantastic Dungeon Pack/2d/Textures/T_PROP_bottle_dungeon_BC.png
+  artifactKey: Guid(8022172ff0d8dbc4197e9501d7af1e7e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Z_Third Party/Fantastic Dungeon Pack/2d/Textures/T_PROP_bottle_dungeon_BC.png using Guid(8022172ff0d8dbc4197e9501d7af1e7e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3ef7c26fedc35203ebbe56b916e802b0') in 0.008807 seconds 
+  Import took 0.011633 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000142 seconds.
+  path: Assets/Z_Third Party/Fantastic Dungeon Pack/2d/Textures/T_PROP_books_dungeon_BC.png
+  artifactKey: Guid(becb988bedfda14499eb47dfa691f752) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Z_Third Party/Fantastic Dungeon Pack/2d/Textures/T_PROP_books_dungeon_BC.png using Guid(becb988bedfda14499eb47dfa691f752) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8155a08bd5644fc145ee8b66a8489217') in 0.009198 seconds 
+  Import took 0.011945 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000138 seconds.
+  path: Assets/Z_Third Party/Fantastic Dungeon Pack/2d/Textures/T_PROP_bonepile_dungeon_N.png
+  artifactKey: Guid(a63f23519b71e004895856d2319a5962) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Z_Third Party/Fantastic Dungeon Pack/2d/Textures/T_PROP_bonepile_dungeon_N.png using Guid(a63f23519b71e004895856d2319a5962) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '399fcd8e2b5e7564a3f90fd3a08ef1f2') in 0.010959 seconds 
+  Import took 0.014084 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.187452 seconds.
+  path: Assets/Z_Third Party/Fantastic Dungeon Pack/2d/Textures/old
+  artifactKey: Guid(483d782967174374a9e746b12355a303) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Z_Third Party/Fantastic Dungeon Pack/2d/Textures/old using Guid(483d782967174374a9e746b12355a303) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7428805c0e607fc953bfee7890e8480a') in 0.004284 seconds 
+  Import took 0.006968 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.053308 seconds.
+  path: Assets/Z_Third Party/Fantastic Dungeon Pack/2d/Textures/old/T_PROP_bonepile_dungeon_BC_old.png
+  artifactKey: Guid(17af367b40074f440a4b3881444bea6c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Z_Third Party/Fantastic Dungeon Pack/2d/Textures/old/T_PROP_bonepile_dungeon_BC_old.png using Guid(17af367b40074f440a4b3881444bea6c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '206019a72f5cbf11a8e7ef81845bda43') in 0.010604 seconds 
+  Import took 0.013284 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000170 seconds.
+  path: Assets/Z_Third Party/Fantastic Dungeon Pack/2d/Textures/old/T_PROP_gold_dungeon_BC_old.png
+  artifactKey: Guid(537c0627e3912cd4197d3272619c5fbc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Z_Third Party/Fantastic Dungeon Pack/2d/Textures/old/T_PROP_gold_dungeon_BC_old.png using Guid(537c0627e3912cd4197d3272619c5fbc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2f82cc2e4b00a64b8f2c3f58c4c81202') in 0.010998 seconds 
+  Import took 0.013452 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 5.054374 seconds.
+  path: Assets/Z_Third Party/Fantastic Dungeon Pack/materials/M_CLR_yellow_E.mat
+  artifactKey: Guid(b090fb4fcad8c824cab746bd00e677f4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Z_Third Party/Fantastic Dungeon Pack/materials/M_CLR_yellow_E.mat using Guid(b090fb4fcad8c824cab746bd00e677f4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '057d0e7ff335f41d6a2e4dcfda9c8035') in 0.083558 seconds 
+  Import took 0.086235 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000238 seconds.
+  path: Assets/Z_Third Party/Fantastic Dungeon Pack/materials/M_FX_steam_dungeon.mat
+  artifactKey: Guid(77fbd38932f92eb499d9066ce18639e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Z_Third Party/Fantastic Dungeon Pack/materials/M_FX_steam_dungeon.mat using Guid(77fbd38932f92eb499d9066ce18639e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd8a336546b2a93ed8a97d93c6b408aad') in 0.074785 seconds 
+  Import took 0.077216 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000178 seconds.
+  path: Assets/Z_Third Party/Fantastic Dungeon Pack/materials/M_FX_glow_dungeon.mat
+  artifactKey: Guid(1024e84002168c44aaed81be58fbfd08) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Z_Third Party/Fantastic Dungeon Pack/materials/M_FX_glow_dungeon.mat using Guid(1024e84002168c44aaed81be58fbfd08) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '90637c420d54ae534207bf75fa2046df') in 1.445470 seconds 
+  Import took 1.448036 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000236 seconds.
+  path: Assets/Z_Third Party/Fantastic Dungeon Pack/materials/M_PROP_bow_dungeon.mat
+  artifactKey: Guid(325afa90f806acc43855faf6a7666a09) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Z_Third Party/Fantastic Dungeon Pack/materials/M_PROP_bow_dungeon.mat using Guid(325afa90f806acc43855faf6a7666a09) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '323d19783eca8038c2891cf32b620fd9') in 0.187607 seconds 
+  Import took 0.190002 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000202 seconds.
+  path: Assets/Z_Third Party/Fantastic Dungeon Pack/materials/M_plane.mat
+  artifactKey: Guid(7a123fe05ec939a4c991a1a0d2020b8c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Z_Third Party/Fantastic Dungeon Pack/materials/M_plane.mat using Guid(7a123fe05ec939a4c991a1a0d2020b8c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c199574975358cb42ea1f4ce224fb4e4') in 0.086189 seconds 
+  Import took 0.088761 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000169 seconds.
+  path: Assets/Z_Third Party/Fantastic Dungeon Pack/materials/M_FX_fire_dungeon.mat
+  artifactKey: Guid(de8e989d841bf474a986f183fadd4675) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Z_Third Party/Fantastic Dungeon Pack/materials/M_FX_fire_dungeon.mat using Guid(de8e989d841bf474a986f183fadd4675) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0f1397322943c953cf16800475cb69b4') in 0.009039 seconds 
+  Import took 0.011576 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000157 seconds.
+  path: Assets/Z_Third Party/Fantastic Dungeon Pack/materials/M_FX_fog_small_dungeon.mat
+  artifactKey: Guid(0811ca7faaef25149b93fe362b51981d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Z_Third Party/Fantastic Dungeon Pack/materials/M_FX_fog_small_dungeon.mat using Guid(0811ca7faaef25149b93fe362b51981d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd9a0dfdf2b78bb9f78b4a93d6ded8956') in 1.357608 seconds 
+  Import took 1.360138 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000180 seconds.
+  path: Assets/Z_Third Party/Fantastic Dungeon Pack/materials/M_MOD_Wall_01_v3.mat
+  artifactKey: Guid(6972e630f1152ac458cdb41dffcc7f30) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Z_Third Party/Fantastic Dungeon Pack/materials/M_MOD_Wall_01_v3.mat using Guid(6972e630f1152ac458cdb41dffcc7f30) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eedba5d331d3467502333c65d117a065') in 0.215669 seconds 
+  Import took 0.218084 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000123 seconds.
+  path: Assets/Z_Third Party/Fantastic Dungeon Pack/materials/M_FX_fog_big_dungeon.mat
+  artifactKey: Guid(5ef885dbbc62e02498e96881f11c0b04) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Z_Third Party/Fantastic Dungeon Pack/materials/M_FX_fog_big_dungeon.mat using Guid(5ef885dbbc62e02498e96881f11c0b04) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f7d4136ba728fac55f092fd277e5d547') in 0.961353 seconds 
+  Import took 0.963836 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000141 seconds.
+  path: Assets/Z_Third Party/Fantastic Dungeon Pack/materials/M_MOD_Wall_01_v1.mat
+  artifactKey: Guid(2a6b395aa96b6b6479b3a71a41ba7213) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Z_Third Party/Fantastic Dungeon Pack/materials/M_MOD_Wall_01_v1.mat using Guid(2a6b395aa96b6b6479b3a71a41ba7213) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3556591cc494f512ad136b641cccb861') in 0.022647 seconds 
+  Import took 0.025133 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000125 seconds.
+  path: Assets/Z_Third Party/Fantastic Dungeon Pack/materials/M_PROP_bottle_dungeon.mat
+  artifactKey: Guid(5b85dde66d3c80d48abf189eaaf1056c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Z_Third Party/Fantastic Dungeon Pack/materials/M_PROP_bottle_dungeon.mat using Guid(5b85dde66d3c80d48abf189eaaf1056c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '831d6e739aae7c16ba7235390f64501d') in 0.011966 seconds 
+  Import took 0.014711 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000150 seconds.
+  path: Assets/Z_Third Party/Fantastic Dungeon Pack/materials/M_PROP_candle_dungeon.mat
+  artifactKey: Guid(6770db9eb74050c4689ac1d9a79ac667) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Z_Third Party/Fantastic Dungeon Pack/materials/M_PROP_candle_dungeon.mat using Guid(6770db9eb74050c4689ac1d9a79ac667) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e7068ea53bc09038f23502f2800de285') in 0.014009 seconds 
+  Import took 0.016583 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000134 seconds.
+  path: Assets/Z_Third Party/Fantastic Dungeon Pack/materials/M_MOD_Trim_Stone_01_v3.mat
+  artifactKey: Guid(ad629b41f14b9b64888c003e6c680a61) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Z_Third Party/Fantastic Dungeon Pack/materials/M_MOD_Trim_Stone_01_v3.mat using Guid(ad629b41f14b9b64888c003e6c680a61) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'db53305fbf03c395cd5b1c185ec6de1b') in 0.276241 seconds 
+  Import took 0.278762 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000131 seconds.
+  path: Assets/Z_Third Party/Fantastic Dungeon Pack/materials/M_metal_dungeon_02.mat
+  artifactKey: Guid(b5b12e513971cf34d9d59c05d3fd0368) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Z_Third Party/Fantastic Dungeon Pack/materials/M_metal_dungeon_02.mat using Guid(b5b12e513971cf34d9d59c05d3fd0368) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'baded4cd48c53758757808d4714cb2d3') in 0.036276 seconds 
+  Import took 0.038895 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000134 seconds.
+  path: Assets/Z_Third Party/Fantastic Dungeon Pack/materials/M_PROP_books_dungeon.mat
+  artifactKey: Guid(7741e5c83f9d6c5459105eea27fb2e00) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Z_Third Party/Fantastic Dungeon Pack/materials/M_PROP_books_dungeon.mat using Guid(7741e5c83f9d6c5459105eea27fb2e00) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cba622ddfce508cfeef95feb7f901476') in 0.012788 seconds 
+  Import took 0.015315 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000126 seconds.
+  path: Assets/Z_Third Party/Fantastic Dungeon Pack/materials/M_metal_dungeon_01.mat
+  artifactKey: Guid(d9cb13a5d10301f4ab09f92283e9bb85) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Z_Third Party/Fantastic Dungeon Pack/materials/M_metal_dungeon_01.mat using Guid(d9cb13a5d10301f4ab09f92283e9bb85) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b8d94d61a107cbe0392d68be75408fdf') in 0.021557 seconds 
+  Import took 0.024144 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000121 seconds.
+  path: Assets/Z_Third Party/Fantastic Dungeon Pack/materials/M_PROP_campfire_dungeon.mat
+  artifactKey: Guid(093ed1ccd4c1cf94080b23a2f470be02) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Z_Third Party/Fantastic Dungeon Pack/materials/M_PROP_campfire_dungeon.mat using Guid(093ed1ccd4c1cf94080b23a2f470be02) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '013eff968a0206560cd4e82fe47557c3') in 0.022920 seconds 
+  Import took 0.025547 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000200 seconds.
+  path: Assets/Z_Third Party/Fantastic Dungeon Pack/materials/M_MOD_Floor_01_v3.mat
+  artifactKey: Guid(03762e90e86819c47962e17ab27442cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Z_Third Party/Fantastic Dungeon Pack/materials/M_MOD_Floor_01_v3.mat using Guid(03762e90e86819c47962e17ab27442cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '70f89391838232b5c8773919973c00fd') in 0.021113 seconds 
+  Import took 0.023706 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000157 seconds.
+  path: Assets/Z_Third Party/Fantastic Dungeon Pack/materials/M_FX_gradient_linear_dungeon.mat
+  artifactKey: Guid(8a176194be67ee0469c32b73c72fb4bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Z_Third Party/Fantastic Dungeon Pack/materials/M_FX_gradient_linear_dungeon.mat using Guid(8a176194be67ee0469c32b73c72fb4bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '22b658e77b8b9baaed0ed48ed011cab6') in 0.152210 seconds 
+  Import took 0.154785 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.906188 seconds.
+  path: Assets/Z_Third Party/Fantastic Dungeon Pack/scenes/demoscene_dungeon_assets_modular.unity
+  artifactKey: Guid(c377cc07536283d4088adbec32197749) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Z_Third Party/Fantastic Dungeon Pack/scenes/demoscene_dungeon_assets_modular.unity using Guid(c377cc07536283d4088adbec32197749) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd91d6746eaab54ed73f37c21010380b5') in 0.004838 seconds 
+  Import took 0.007625 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 41.048387 seconds.
+  path: Assets/Z_Third Party/Fantastic Dungeon Pack/scenes/demoscene_dungeon_assets_props.unity
+  artifactKey: Guid(a16a8a1f4e046f24c8c1f56f8d7599ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Z_Third Party/Fantastic Dungeon Pack/scenes/demoscene_dungeon_assets_props.unity using Guid(a16a8a1f4e046f24c8c1f56f8d7599ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f3aee3ac425fa42828d72a57c4bac251') in 0.005140 seconds 
+  Import took 0.008015 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 47.697104 seconds.
+  path: Assets/Z_Third Party/Fantastic Dungeon Pack/scenes/demoscene_dungeon_level_1_dungeon.unity
+  artifactKey: Guid(95f5bc9625f5f2744a60edee917e3b12) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Z_Third Party/Fantastic Dungeon Pack/scenes/demoscene_dungeon_level_1_dungeon.unity using Guid(95f5bc9625f5f2744a60edee917e3b12) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a5d3b03d8eb133618754dcb9f7f6713a') in 0.005196 seconds 
+  Import took 0.008027 seconds .
 
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.001809 seconds.
+Registered in 0.002330 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.39 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 0.69 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.785 seconds
+- Completed reload, in  0.966 seconds
 Domain Reload Profiling:
-	ReloadAssembly (785ms)
-		BeginReloadAssembly (97ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (4ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (28ms)
-		EndReloadAssembly (637ms)
-			LoadAssemblies (66ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (226ms)
-			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (32ms)
-			SetupLoadedEditorAssemblies (235ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (4ms)
-				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (0ms)
-				BeforeProcessingInitializeOnLoad (61ms)
-				ProcessInitializeOnLoadAttributes (161ms)
-				ProcessInitializeOnLoadMethodAttributes (3ms)
-				AfterProcessingInitializeOnLoad (5ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (5ms)
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.38 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 2021 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 101.5 MB.
-System memory in use after: 101.6 MB.
-
-Unloading 11 unused Assets to reduce memory usage. Loaded Objects now: 2523.
-Total: 2.333100 ms (FindLiveObjects: 0.219700 ms CreateObjectMapping: 0.098600 ms MarkObjects: 2.001400 ms  DeleteObjects: 0.012500 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Import Request.
-  Time since last request: 270.814208 seconds.
-  path: Assets/Development/Prototyping_LevelDesign/Prefabs/TownWalls.prefab
-  artifactKey: Guid(163d8356391179e4ab9645380a8e2cf2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Development/Prototyping_LevelDesign/Prefabs/TownWalls.prefab using Guid(163d8356391179e4ab9645380a8e2cf2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e2134849be1de575269bed333254609e') in 0.054478 seconds 
-  Import took 0.057547 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 33.926054 seconds.
-  path: Assets/Development/Prototyping_LevelDesign/Scenes/ChapterOne_Test.unity
-  artifactKey: Guid(9939ac7e6a7fc1e4b82c3f1a014f886a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Development/Prototyping_LevelDesign/Scenes/ChapterOne_Test.unity using Guid(9939ac7e6a7fc1e4b82c3f1a014f886a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3146bb6b7d3f858c400fc463dead21f1') in 0.002571 seconds 
-  Import took 0.005746 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 13.899691 seconds.
-  path: Assets/Development/Prototyping_LevelDesign/Prefabs/---Player---.prefab
-  artifactKey: Guid(4460cdb61124f4d41a5082e8b0c29636) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Development/Prototyping_LevelDesign/Prefabs/---Player---.prefab using Guid(4460cdb61124f4d41a5082e8b0c29636) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3d83e8980fd022bde02297ea8b7734ed') in 0.009459 seconds 
-  Import took 0.012547 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 244.191617 seconds.
-  path: Assets/Development/Prototyping_LevelDesign/Scenes/ChapterOne_Test.unity
-  artifactKey: Guid(9939ac7e6a7fc1e4b82c3f1a014f886a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Development/Prototyping_LevelDesign/Scenes/ChapterOne_Test.unity using Guid(9939ac7e6a7fc1e4b82c3f1a014f886a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd940ca70aa77198623ef2e284526d4e0') in 0.004184 seconds 
-  Import took 0.006926 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 30.397077 seconds.
-  path: Assets/Development/Prototyping_LevelDesign/Prefabs/FriendlyNPC.prefab
-  artifactKey: Guid(f436e6bd2bf384641b7badd8df2b4463) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Development/Prototyping_LevelDesign/Prefabs/FriendlyNPC.prefab using Guid(f436e6bd2bf384641b7badd8df2b4463) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ac989f1c0625a8f0ce8305277369e6ee') in 0.006941 seconds 
-  Import took 0.009727 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 85.009006 seconds.
-  path: Assets/Development/Prototyping_LevelDesign/Scenes/ChapterTwo_Test.unity
-  artifactKey: Guid(149f4bd3432ce154bb510f75f656c335) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Development/Prototyping_LevelDesign/Scenes/ChapterTwo_Test.unity using Guid(149f4bd3432ce154bb510f75f656c335) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7ac1d8cfcd7212f51d02d406a96993e9') in 0.001682 seconds 
-  Import took 0.004237 seconds .
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.001892 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.64 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.791 seconds
-Domain Reload Profiling:
-	ReloadAssembly (792ms)
-		BeginReloadAssembly (93ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (6ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (27ms)
-		EndReloadAssembly (649ms)
-			LoadAssemblies (70ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (226ms)
-			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (31ms)
-			SetupLoadedEditorAssemblies (243ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (6ms)
-				SetLoadedEditorAssemblies (1ms)
-				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (67ms)
-				ProcessInitializeOnLoadAttributes (161ms)
-				ProcessInitializeOnLoadMethodAttributes (3ms)
-				AfterProcessingInitializeOnLoad (5ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (5ms)
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.42 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 2021 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 101.6 MB.
-System memory in use after: 101.7 MB.
-
-Unloading 11 unused Assets to reduce memory usage. Loaded Objects now: 2525.
-Total: 2.395700 ms (FindLiveObjects: 0.199200 ms CreateObjectMapping: 0.077000 ms MarkObjects: 2.104900 ms  DeleteObjects: 0.012700 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.001801 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.39 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.781 seconds
-Domain Reload Profiling:
-	ReloadAssembly (782ms)
-		BeginReloadAssembly (93ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (4ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (26ms)
-		EndReloadAssembly (639ms)
-			LoadAssemblies (67ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (226ms)
-			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (32ms)
-			SetupLoadedEditorAssemblies (236ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (4ms)
-				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (0ms)
-				BeforeProcessingInitializeOnLoad (62ms)
-				ProcessInitializeOnLoadAttributes (161ms)
-				ProcessInitializeOnLoadMethodAttributes (3ms)
-				AfterProcessingInitializeOnLoad (5ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (5ms)
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.38 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 2021 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 101.6 MB.
-System memory in use after: 101.7 MB.
-
-Unloading 11 unused Assets to reduce memory usage. Loaded Objects now: 2527.
-Total: 2.354600 ms (FindLiveObjects: 0.176100 ms CreateObjectMapping: 0.087300 ms MarkObjects: 2.078200 ms  DeleteObjects: 0.012000 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.001880 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.38 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.765 seconds
-Domain Reload Profiling:
-	ReloadAssembly (766ms)
-		BeginReloadAssembly (87ms)
+	ReloadAssembly (966ms)
+		BeginReloadAssembly (122ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (3ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (24ms)
-		EndReloadAssembly (630ms)
-			LoadAssemblies (66ms)
+			CreateAndSetChildDomain (37ms)
+		EndReloadAssembly (777ms)
+			LoadAssemblies (91ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (221ms)
+			SetupTypeCache (307ms)
 			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (32ms)
-			SetupLoadedEditorAssemblies (233ms)
+			RebuildScriptCaches (37ms)
+			SetupLoadedEditorAssemblies (255ms)
 				LogAssemblyErrors (0ms)
 				InitializePlatformSupportModulesInManaged (4ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (0ms)
-				BeforeProcessingInitializeOnLoad (61ms)
-				ProcessInitializeOnLoadAttributes (158ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (67ms)
+				ProcessInitializeOnLoadAttributes (176ms)
 				ProcessInitializeOnLoadMethodAttributes (3ms)
-				AfterProcessingInitializeOnLoad (6ms)
+				AfterProcessingInitializeOnLoad (5ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (5ms)
 Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.37 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 1.17 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 2021 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 101.6 MB.
-System memory in use after: 101.7 MB.
+System memory in use before: 195.9 MB.
+System memory in use after: 196.0 MB.
 
-Unloading 11 unused Assets to reduce memory usage. Loaded Objects now: 2529.
-Total: 2.309400 ms (FindLiveObjects: 0.188100 ms CreateObjectMapping: 0.079700 ms MarkObjects: 2.028500 ms  DeleteObjects: 0.012200 ms)
+Unloading 12 unused Assets to reduce memory usage. Loaded Objects now: 2573.
+Total: 2.674500 ms (FindLiveObjects: 0.203700 ms CreateObjectMapping: 0.093000 ms MarkObjects: 2.342200 ms  DeleteObjects: 0.034900 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
@@ -421,207 +954,4 @@ AssetImportParameters requested are different than current active one (requested
   custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Import Request.
-  Time since last request: 6781.015153 seconds.
-  path: Assets/Development/Prototyping_LevelDesign/Scenes/ChapterOne_Test.unity
-  artifactKey: Guid(9939ac7e6a7fc1e4b82c3f1a014f886a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Development/Prototyping_LevelDesign/Scenes/ChapterOne_Test.unity using Guid(9939ac7e6a7fc1e4b82c3f1a014f886a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b4927311fb7e4d76731c34b5df5e92d0') in 0.026288 seconds 
-  Import took 0.029492 seconds .
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.001979 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.63 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.862 seconds
-Domain Reload Profiling:
-	ReloadAssembly (862ms)
-		BeginReloadAssembly (112ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (4ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (32ms)
-		EndReloadAssembly (698ms)
-			LoadAssemblies (76ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (251ms)
-			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (36ms)
-			SetupLoadedEditorAssemblies (248ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (4ms)
-				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (64ms)
-				ProcessInitializeOnLoadAttributes (170ms)
-				ProcessInitializeOnLoadMethodAttributes (3ms)
-				AfterProcessingInitializeOnLoad (5ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (6ms)
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.37 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 2021 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 101.5 MB.
-System memory in use after: 101.7 MB.
-
-Unloading 11 unused Assets to reduce memory usage. Loaded Objects now: 2531.
-Total: 2.518900 ms (FindLiveObjects: 0.237100 ms CreateObjectMapping: 0.089400 ms MarkObjects: 2.175400 ms  DeleteObjects: 0.015600 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Import Request.
-  Time since last request: 7336.112811 seconds.
-  path: Assets/Development/Prototyping_LevelDesign/Scenes/ChapterTwo_Test.unity
-  artifactKey: Guid(149f4bd3432ce154bb510f75f656c335) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Development/Prototyping_LevelDesign/Scenes/ChapterTwo_Test.unity using Guid(149f4bd3432ce154bb510f75f656c335) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bf43556866e524c485cac7aa9d1a8afa') in 0.094424 seconds 
-  Import took 0.121959 seconds .
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.001954 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.46 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.867 seconds
-Domain Reload Profiling:
-	ReloadAssembly (868ms)
-		BeginReloadAssembly (119ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (6ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (44ms)
-		EndReloadAssembly (696ms)
-			LoadAssemblies (81ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (237ms)
-			ReleaseScriptCaches (5ms)
-			RebuildScriptCaches (33ms)
-			SetupLoadedEditorAssemblies (258ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (5ms)
-				SetLoadedEditorAssemblies (1ms)
-				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (65ms)
-				ProcessInitializeOnLoadAttributes (178ms)
-				ProcessInitializeOnLoadMethodAttributes (4ms)
-				AfterProcessingInitializeOnLoad (5ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (6ms)
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.45 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 2021 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 101.6 MB.
-System memory in use after: 101.8 MB.
-
-Unloading 11 unused Assets to reduce memory usage. Loaded Objects now: 2533.
-Total: 3.105800 ms (FindLiveObjects: 0.195200 ms CreateObjectMapping: 0.093200 ms MarkObjects: 2.797800 ms  DeleteObjects: 0.018300 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Import Request.
-  Time since last request: 1830.648449 seconds.
-  path: Assets/Development/Prototyping_LevelDesign/Scenes/ChapterTwo_Test.unity
-  artifactKey: Guid(149f4bd3432ce154bb510f75f656c335) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Development/Prototyping_LevelDesign/Scenes/ChapterTwo_Test.unity using Guid(149f4bd3432ce154bb510f75f656c335) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0ccd9916d29b314f4b774b60b92b7305') in 0.019212 seconds 
-  Import took 0.022261 seconds .
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.002126 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.38 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.839 seconds
-Domain Reload Profiling:
-	ReloadAssembly (839ms)
-		BeginReloadAssembly (104ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (4ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (29ms)
-		EndReloadAssembly (682ms)
-			LoadAssemblies (74ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (239ms)
-			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (34ms)
-			SetupLoadedEditorAssemblies (252ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (4ms)
-				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (0ms)
-				BeforeProcessingInitializeOnLoad (65ms)
-				ProcessInitializeOnLoadAttributes (173ms)
-				ProcessInitializeOnLoadMethodAttributes (3ms)
-				AfterProcessingInitializeOnLoad (6ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (6ms)
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.41 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 2021 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 101.7 MB.
-System memory in use after: 101.8 MB.
-
-Unloading 11 unused Assets to reduce memory usage. Loaded Objects now: 2535.
-Total: 2.856400 ms (FindLiveObjects: 0.446700 ms CreateObjectMapping: 0.192000 ms MarkObjects: 2.201900 ms  DeleteObjects: 0.014100 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Import Request.
-  Time since last request: 487.427388 seconds.
-  path: Assets/Development/Prototyping_LevelDesign/Scenes/ChapterTwo_Test.unity
-  artifactKey: Guid(149f4bd3432ce154bb510f75f656c335) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Development/Prototyping_LevelDesign/Scenes/ChapterTwo_Test.unity using Guid(149f4bd3432ce154bb510f75f656c335) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7422bbf5780145154c9bb44200630909') in 0.017059 seconds 
-  Import took 0.020170 seconds .
-
 AssetImportWorkerClient::OnTransportError - code=2 error=End of file
