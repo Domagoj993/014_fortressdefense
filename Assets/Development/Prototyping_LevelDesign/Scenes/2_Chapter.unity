@@ -33335,6 +33335,10 @@ PrefabInstance:
       propertyPath: m_Mesh
       value: 
       objectReference: {fileID: 1252230046}
+    - target: {fileID: 5311105633907088211, guid: ee76e03a8d635d04eb38adb7cf3b0d2d, type: 3}
+      propertyPath: m_Name
+      value: Friendly Catapult Area
+      objectReference: {fileID: 0}
     - target: {fileID: 5311105633907088220, guid: ee76e03a8d635d04eb38adb7cf3b0d2d, type: 3}
       propertyPath: m_Mesh
       value: 
@@ -33471,6 +33475,10 @@ PrefabInstance:
       propertyPath: m_Mesh
       value: 
       objectReference: {fileID: 1906439952}
+    - target: {fileID: 5311105634609827746, guid: ee76e03a8d635d04eb38adb7cf3b0d2d, type: 3}
+      propertyPath: m_Name
+      value: Friendly Archers Area
+      objectReference: {fileID: 0}
     - target: {fileID: 5311105634609827757, guid: ee76e03a8d635d04eb38adb7cf3b0d2d, type: 3}
       propertyPath: m_Mesh
       value: 
