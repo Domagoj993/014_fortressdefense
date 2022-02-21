@@ -2,17 +2,12 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class Fortress : MonoBehaviour
+public static class Fortress
 {
-    // Start is called before the first frame update
-    void Start()
-    {
-        
-    }
+    private static int health;
 
-    // Update is called once per frame
-    void Update()
+    internal static void InitializeFortress(int totalHealth)
     {
-        
+        health = totalHealth;
     }
 }
