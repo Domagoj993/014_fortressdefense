@@ -3,7 +3,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class WeaponManager : MonoBehaviour
+public class BowManager : MonoBehaviour
 {
     public GameObject AmmoItem;
     public Transform AmmoSpawn;
@@ -13,14 +13,10 @@ public class WeaponManager : MonoBehaviour
     public float ammoShootingWait;
     public float ammoLifetime;
     [Space(10)]
-    public bool isArrow = false;
-    [Space(10)]
     public float ammoChargingDistance;
     public float ammoChargingTime;
     [Space(10)]
-    public Transform Thrower;
-    public float throwerForwardTime;
-    public float throwerBackwardTime;
+    public bool AI = false;
 
     private Transform AmmoContainer;
     private GameObject Ammo;
@@ -31,7 +27,6 @@ public class WeaponManager : MonoBehaviour
 
     private void Awake()
     {
-        //SpawnAmmo();
         AmmoContainer = GameObject.Find("AmmoContainer").gameObject.transform;
         timerShooting = 0;
         ammoEquiped = false;
@@ -82,41 +77,28 @@ public class WeaponManager : MonoBehaviour
 
                 ammoEquiped = true;
             }
-            
-            if (isArrow)
+
+            if (ammoEquiped && Input.GetKeyDown(KeyCode.Mouse1))
             {
-                if (ammoEquiped && Input.GetKeyDown(KeyCode.Mouse1))
+                charging = true;
+                z = 0;
+            }
+            else if (ammoEquiped && charging && Input.GetKey(KeyCode.Mouse1))
+            {
+                z = Ammo.transform.localPosition.z - ammoChargingDistance * Time.deltaTime / (ammoChargingTime);
+                Ammo.transform.localPosition = new Vector3(Ammo.transform.localPosition.x, Ammo.transform.localPosition.y, z);
+                if (Mathf.Abs(z) > ammoChargingDistance)
                 {
-                    charging = true;
-                    z = 0;
-                }
-                else if (ammoEquiped && charging && Input.GetKey(KeyCode.Mouse1))
-                {
-                    z = Ammo.transform.localPosition.z - ammoChargingDistance * Time.deltaTime / (ammoChargingTime);
-                    Ammo.transform.localPosition = new Vector3(Ammo.transform.localPosition.x, Ammo.transform.localPosition.y, z);
-                    if (Mathf.Abs(z) > ammoChargingDistance)
-                    {
-                        z = -ammoChargingDistance;
-                        charging = false;
-                    }
-                }
-                else if (ammoEquiped && Input.GetKeyUp(KeyCode.Mouse1))
-                {
-                    Ammo.GetComponent<Ammo>().ActivateArrow(ammoForce * Mathf.Abs(z) / ammoChargingDistance, ammoLifetime);
-                    Ammo.transform.SetParent(AmmoContainer);
-                    timerShooting = ammoShootingWait;
-                    ammoEquiped = false;
+                    z = -ammoChargingDistance;
+                    charging = false;
                 }
             }
-            else
+            else if (ammoEquiped && Input.GetKeyUp(KeyCode.Mouse1))
             {
-                if (ammoEquiped && Input.GetKeyDown(KeyCode.Mouse1))
-                {
-                    Ammo.GetComponent<Ammo>().ActivateBall(ammoForce, ammoLifetime);
-                    Ammo.transform.SetParent(AmmoContainer);
-                    timerShooting = ammoShootingWait;
-                    ammoEquiped = false;
-                }
+                Ammo.GetComponent<Ammo>().ActivateArrow(ammoForce * Mathf.Abs(z) / ammoChargingDistance, ammoLifetime);
+                Ammo.transform.SetParent(AmmoContainer);
+                timerShooting = ammoShootingWait;
+                ammoEquiped = false;
             }
         }
         else
@@ -127,20 +109,6 @@ public class WeaponManager : MonoBehaviour
             {
                 timerShooting = 0;
                 SpawnAmmo();
-            }
-
-            if (!isArrow)
-            {
-                if (timerShooting >= ammoShootingWait - throwerForwardTime)
-                {
-                    float x = Thrower.localRotation.x + 130f / throwerForwardTime;
-                    Thrower.Rotate(new Vector3(x, 0, 0) * timePassed);
-                }
-                else if (timerShooting >= 0)
-                {
-                    float x = Thrower.localRotation.x - 130f / throwerBackwardTime;
-                    Thrower.Rotate(new Vector3(x, 0, 0) * timePassed);
-                }
             }
         }
     }

@@ -4,26 +4,26 @@ using UnityEngine;
 
 public class Ammo : MonoBehaviour
 {
-    private Rigidbody rigidbody;
+    private Rigidbody rbody;
     private bool flying = false;
 
     private void Start()
     {
-        rigidbody = gameObject.GetComponent<Rigidbody>();
+        rbody = gameObject.GetComponent<Rigidbody>();
     }
 
     void FixedUpdate()
     {
-        if (flying && rigidbody.velocity != Vector3.zero)
+        if (flying && rbody.velocity != Vector3.zero)
         {
-            rigidbody.rotation = Quaternion.LookRotation(rigidbody.velocity);
+            rbody.rotation = Quaternion.LookRotation(rbody.velocity);
         }       
     }
 
     internal void ActivateArrow(float ammoForce, float ammoLifetime)
     {
-        rigidbody.AddForce(gameObject.transform.forward * ammoForce);
-        rigidbody.useGravity = true;
+        rbody.AddForce(gameObject.transform.forward * ammoForce);
+        rbody.useGravity = true;
         flying = true;
 
         Destroy(gameObject, ammoLifetime);
@@ -31,10 +31,33 @@ public class Ammo : MonoBehaviour
 
     internal void ActivateBall(float ammoForce, float ammoLifetime)
     {
-        rigidbody.AddForce(new Vector3(0, 1, 0.466f) * ammoForce);      // rot(x) = 25
-        rigidbody.useGravity = true;
+        rbody.AddRelativeForce(new Vector3(0, 1, 0.7f) * ammoForce);      // rot(x) = 35
+        rbody.useGravity = true;
         flying = true;
 
         Destroy(gameObject, ammoLifetime);
+    }
+
+    private void OnTriggerEnter(Collider other)
+    {
+        if (other.gameObject.tag.Equals("Troop"))
+        {
+            GameObject.Find("GameManager").GetComponent<ActionManager>().EarnCoins(2);
+
+            // Enemy killed
+            Destroy(other.gameObject);
+
+            // Remove ammo
+            Destroy(gameObject);
+        }
+    }
+
+    private void OnCollisionEnter(Collision collision)
+    {
+        if (collision.gameObject.tag.Equals("Floor"))
+        {
+            // Remove ammo
+            Destroy(gameObject);
+        }
     }
 }
